@@ -113,11 +113,5 @@ async def spy(ctx):
     # Delete image from phone
     os.system('cmd /c "adb shell rm /sdcard/screen.png"')
 
-
-# Spy command when its not SVS week
-#    channel = bot.get_channel(Insert Channel ID)
-#    await ctx.channel.send("Sorry, nothing to spy on right now!")
-
-
 bot.run('Insert Bot Token')
 
